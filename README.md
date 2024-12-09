@@ -1,2 +1,2 @@
 # erkel
-facsimilie/MEI-code/PDF
+facsimilie/MEI-code/JPG
