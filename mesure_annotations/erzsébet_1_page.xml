@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei
+    xmlns="http://www.music-encoding.org/ns/mei">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <pubStmt/>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application isodate="2025-02-05T16:15:52.511Z" version="1.0.2">
+                    <name>Deep Optical Measure Detector</name>
+                    <p>Measures detected with Deep Optical Measure Detector</p>
+                </application>
+            </appInfo>
+        </encodingDesc>
+    </meiHead>
+    <music>
+        <facsimile>
+            <surface xml:id="surface_01JKBEB064GWGHCE33RYVK1M1J" n="1" ulx="0" uly="0" lrx="1687" lry="2215">
+                <graphic xml:id="graphic_01JKBEB064HF394YMGXKNNRDC9" target="HUB1Ms mus 359_f0001a__54239.jpg" width="1688" height="2216"/>
+                <zone xml:id="zone_01JKBEB0643EMVNTP53NRYF4EH" type="measure" ulx="18" uly="98" lrx="579" lry="2105"/>
+                <zone xml:id="zone_01JKBEB065VGG7V8HA3BQ0HJYR" type="measure" ulx="489" uly="129" lrx="857" lry="2089"/>
+                <zone xml:id="zone_01JKBEB06535542R920Q7KMWGX" type="measure" ulx="756" uly="153" lrx="1109" lry="2085"/>
+                <zone xml:id="zone_01JKBEB0657JM39WGA5M97FYRX" type="measure" ulx="1016" uly="179" lrx="1352" lry="2081"/>
+                <zone xml:id="zone_01JKBEB0656SKB78KXJWFEQ4KD" type="measure" ulx="1254" uly="118" lrx="1571" lry="2101"/>
+            </surface>
+        </facsimile>
+        <body>
+            <mdiv xml:id="mdiv_01JKBEB060ZW3V8X6SXXF37A60" n="1" label="">
+                <score>
+                    <scoreDef/>
+                    <section>
+                        <pb/>
+                        <measure xml:id="measure_01JKBEB064YA0GANBWXESW3F9W" n="1" label="1" facs="#zone_01JKBEB0643EMVNTP53NRYF4EH"/>
+                        <measure xml:id="measure_01JKBEB0657EMT1NJ74JWTDVEG" n="2" label="2" facs="#zone_01JKBEB065VGG7V8HA3BQ0HJYR"/>
+                        <measure xml:id="measure_01JKBEB065C3Q8MG43MNGMJ9PK" n="3" label="3" facs="#zone_01JKBEB06535542R920Q7KMWGX"/>
+                        <measure xml:id="measure_01JKBEB065DG4V125419VJHXDA" n="4" label="4" facs="#zone_01JKBEB0657JM39WGA5M97FYRX"/>
+                        <measure xml:id="measure_01JKBEB065X5E7N2PTQC3TVD5X" n="5" label="5" facs="#zone_01JKBEB0656SKB78KXJWFEQ4KD"/>
+                        <sb/>
+                        <pb/>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>
