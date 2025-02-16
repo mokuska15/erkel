@@ -24,7 +24,7 @@
    <music>
       <facsimile>
          <surface xml:id="surface_01JM4K7M56S5S05QY74W002818" n="1" ulx="0" uly="0" lrx="1810" lry="2337">
-            <graphic xml:id="graphic_01JM4K7M5A8VG2TXRGWAGNW3K1" target= "https://github.com/mokuska15/erkel/blob/main/facsimilies/himnusz1.png" width="1811" height="2338"/>
+            <graphic xml:id="graphic_01JM4K7M5A8VG2TXRGWAGNW3K1" target= "facsimilies/himnusz1.png" width="1811" height="2338"/>
             <zone xml:id="zone_01JM4K7M5A45YCKM8NPEFHVAF6" type="measure" ulx="510" uly="170" lrx="948" lry="1956"/>
             <zone xml:id="zone_01JM4K7M5BZJJ39645G949W62Z" type="measure" ulx="873" uly="171" lrx="1284" lry="1963"/>
             <zone xml:id="zone_01JM4K7M5B4XGQ0972T74WTMS8" type="measure" ulx="1198" uly="146" lrx="1603" lry="1956"/>
