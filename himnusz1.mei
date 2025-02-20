@@ -25,6 +25,7 @@
       <facsimile>
          <surface xml:id="surface_01JM4K7M56S5S05QY74W002818" n="1" ulx="0" uly="0" lrx="1810" lry="2337">
             <graphic xml:id="graphic_01JM4K7M5A8VG2TXRGWAGNW3K1" target= "facsimilies/himnusz1.png" width="1811" height="2338"/>
+            <zone xml:id="zone_01JM4K7M5A45YCKM8NPEFHVAF7" type="measure" ulx="210" uly="170" lrx="608" lry="1956"/>
             <zone xml:id="zone_01JM4K7M5A45YCKM8NPEFHVAF6" type="measure" ulx="510" uly="170" lrx="948" lry="1956"/>
             <zone xml:id="zone_01JM4K7M5BZJJ39645G949W62Z" type="measure" ulx="873" uly="171" lrx="1284" lry="1963"/>
             <zone xml:id="zone_01JM4K7M5B4XGQ0972T74WTMS8" type="measure" ulx="1198" uly="146" lrx="1603" lry="1956"/>
@@ -261,7 +262,7 @@
                </scoreDef>
                <section xml:id="s1fs87ln" >
                   <pb xml:id="p1egcgme" facs="surface_01JM4K7M56S5S05QY74W002818"/>
-                  <measure xml:id="m6xafsc" n="166">
+                  <measure xml:id="m6xafsc" facs="zone_01JM4K7M5A45YCKM8NPEFHVAF7" n="166">
                      <staff xml:id="s1azzuxf" n="1">
                         <layer xml:id="l11man84" n="1">
                            <rest xml:id="r16iyw7v" dur.ppq="1024" dur="1" />
