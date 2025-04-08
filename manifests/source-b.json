@@ -1,8 +1,8 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "@id": "https://raw.githubusercontent.com/mokuska15/erkel/main/manifests/source-b.json",  // Manifest URL
+  "@id": "https://raw.githubusercontent.com/mokuska15/erkel/refs/heads/main/manifests/source-b.json"
   "@type": "Manifest",
-  "label": "Source A - Facsimile 1",
+  "label": "Source B - Facsimile 1",
   "items": [
     {
       "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie2/himnusz1.png",
