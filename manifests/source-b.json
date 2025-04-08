@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "@id": "https://raw.githubusercontent.com/mokuska15/erkel/refs/heads/main/manifests/source-b.json"
+  "@id": "https://raw.githubusercontent.com/mokuska15/erkel/refs/heads/main/manifests/source-b.json",
   "@type": "Manifest",
   "label": "Source B - Facsimile 1",
   "items": [
