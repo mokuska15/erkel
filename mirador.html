@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mirador Viewer with Two Manifests</title>
+  <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    #mirador {
+      width: 100%;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <div id="mirador"></div>
+
+  <script>
+    Mirador.viewer({
+      id: "mirador",
+      windows: [
+        {
+          manifestId: "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/manifests/source-a.json",
+          canvasIndex: 0,
+          thumbnailNavigationPosition: 'far-bottom',
+          view: "single"
+        },
+        {
+          manifestId: "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/manifests/source-b.json",
+          canvasIndex: 0,
+          thumbnailNavigationPosition: 'far-bottom',
+          view: "single"
+        }
+      ],
+      workspace: {
+        type: 'mosaic'
+      }
+    });
+  </script>
+</body>
+</html>
