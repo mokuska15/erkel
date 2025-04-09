@@ -1,26 +1,26 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/manifests/source-a.json",
+  "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/manifests/source-a.json",
   "@type": "Manifest",
   "label": "Source A - Facsimile 1",
   "items": [
     {
-      "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz1.png",
+      "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz1.png",
       "@type": "Canvas",
       "label": "Page 1",
       "height": 1000,
       "width": 1500,
       "images": [
         {
-          "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz1.png",
+          "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz1.png",
           "@type": "Image",
           "format": "image/png",
           "resource": {
-            "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz1.png",
+            "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz1.png",
             "@type": "Image",
             "service": {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz1.png",
+              "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz1.png",
               "profile": "http://iiif.io/api/image/2/level2.json"
             }
           }
@@ -28,22 +28,22 @@
       ]
     },
     {
-      "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz2.png",
+      "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz2.png",
       "@type": "Canvas",
       "label": "Page 2",
       "height": 1000,
       "width": 1500,
       "images": [
         {
-          "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz2.png",
+          "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz2.png",
           "@type": "Image",
           "format": "image/png",
           "resource": {
-            "@id": "https://raw.githubusercontent.com/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz2.png",
+            "@id": "https://raw.githubusercontent.com/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz2.png",
             "@type": "Image",
             "service": {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz2.png",
+              "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz2.png",
               "profile": "http://iiif.io/api/image/2/level2.json"
             }
           }
@@ -51,22 +51,22 @@
       ]
     },
     {
-      "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz3.png",
+      "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz3.png",
       "@type": "Canvas",
       "label": "Page 3",
       "height": 1000,
       "width": 1500,
       "images": [
         {
-          "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz3.png",
+          "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz3.png",
           "@type": "Image",
           "format": "image/png",
           "resource": {
-            "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz3.png",
+            "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz3.png",
             "@type": "Image",
             "service": {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz3.png",
+              "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz3.png",
               "profile": "http://iiif.io/api/image/2/level2.json"
             }
           }
@@ -74,22 +74,22 @@
       ]
     },
     {
-      "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz4.png",
+      "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz4.png",
       "@type": "Canvas",
       "label": "Page 4",
       "height": 1000,
       "width": 1500,
       "images": [
         {
-          "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz4.png",
+          "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz4.png",
           "@type": "Image",
           "format": "image/png",
           "resource": {
-            "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz4.png",
+            "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz4.png",
             "@type": "Image",
             "service": {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1//himnusz4.png",
+              "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1//himnusz4.png",
               "profile": "http://iiif.io/api/image/2/level2.json"
             }
           }
@@ -97,22 +97,22 @@
       ]
     },
     {
-      "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz5.png",
+      "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz5.png",
       "@type": "Canvas",
       "label": "Page 5",
       "height": 1000,
       "width": 1500,
       "images": [
         {
-          "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz5.png",
+          "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz5.png",
           "@type": "Image",
           "format": "image/png",
           "resource": {
-            "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz5.png",
+            "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz5.png",
             "@type": "Image",
             "service": {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz5.png",
+              "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz5.png",
               "profile": "http://iiif.io/api/image/2/level2.json"
             }
           }
@@ -120,22 +120,22 @@
       ]
     },
     {
-      "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz6.png",
+      "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz6.png",
       "@type": "Canvas",
       "label": "Page 6",
       "height": 1000,
       "width": 1500,
       "images": [
         {
-          "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz6.png",
+          "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz6.png",
           "@type": "Image",
           "format": "image/png",
           "resource": {
-            "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz6.png",
+            "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz6.png",
             "@type": "Image",
             "service": {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel/main/facsimilies/facsimilie1/himnusz6.png",
+              "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz6.png",
               "profile": "http://iiif.io/api/image/2/level2.json"
             }
           }
