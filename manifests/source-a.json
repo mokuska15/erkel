@@ -1,144 +1,199 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/manifests/source-a.json",
-  "@type": "Manifest",
-  "label": "Source A - Facsimile 1",
-  "items": [
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifests/source-a.json",
+  "@type": "sc:Manifest",
+  "label": "Himnusz egyik változat",
+   "requiredStatement": {
+    "label": { "en": ["Attribution"] },
+    "value": { "en": ["Provided by National Széchényi Library"] }
+  },
+  "rights": "http://creativecommons.org/licenses/by/4.0/",
+  "description": "A facsimile of the original manuscript - Source A.",
+  "sequences": [
     {
-      "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz1.png",
-      "@type": "Canvas",
-      "label": "Page 1",
-      "height": 1000,
-      "width": 1500,
-      "images": [
+      "@type": "sc:Sequence",
+      "canvases": [
         {
-          "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz1.png",
-          "@type": "Image",
-          "format": "image/png",
-          "resource": {
-            "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz1.png",
-            "@type": "Image",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz1.png",
-              "profile": "http://iiif.io/api/image/2/level2.json"
-            }
-          }
-        }
-      ]
+          "@id": "http://localhost:8000/canvas/source-a/page1",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "height": 1000,
+          "width": 800,
+          "metadata": [
+    {
+      "label": { "hu": ["Szerző (Creator)"] },
+      "value": { "hu": ["Kölcsey Ferenc"] }
     },
     {
-      "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz2.png",
-      "@type": "Canvas",
-      "label": "Page 2",
-      "height": 1000,
-      "width": 1500,
-      "images": [
-        {
-          "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz2.png",
-          "@type": "Image",
-          "format": "image/png",
-          "resource": {
-            "@id": "https://raw.githubusercontent.com/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz2.png",
-            "@type": "Image",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz2.png",
-              "profile": "http://iiif.io/api/image/2/level2.json"
-            }
-          }
-        }
-      ]
+      "label": { "hu": ["Zeneszerző (Composer)"] },
+      "value": { "hu": ["Erkel Ferenc"] }
     },
     {
-      "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz3.png",
-      "@type": "Canvas",
-      "label": "Page 3",
-      "height": 1000,
-      "width": 1500,
-      "images": [
-        {
-          "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz3.png",
-          "@type": "Image",
-          "format": "image/png",
-          "resource": {
-            "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz3.png",
-            "@type": "Image",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz3.png",
-              "profile": "http://iiif.io/api/image/2/level2.json"
-            }
-          }
-        }
-      ]
+      "label": { "hu": ["Készítés dátuma (Date)"] },
+      "value": { "hu": ["1823"] }
     },
     {
-      "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz4.png",
-      "@type": "Canvas",
-      "label": "Page 4",
-      "height": 1000,
-      "width": 1500,
-      "images": [
-        {
-          "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz4.png",
-          "@type": "Image",
-          "format": "image/png",
-          "resource": {
-            "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz4.png",
-            "@type": "Image",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1//himnusz4.png",
-              "profile": "http://iiif.io/api/image/2/level2.json"
-            }
-          }
-        }
-      ]
+      "label": { "hu": ["Típus (Type)"] },
+      "value": { "hu": ["Kézirat, zenei kézirat"] }
     },
     {
-      "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz5.png",
-      "@type": "Canvas",
-      "label": "Page 5",
-      "height": 1000,
-      "width": 1500,
-      "images": [
-        {
-          "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz5.png",
-          "@type": "Image",
-          "format": "image/png",
-          "resource": {
-            "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz5.png",
-            "@type": "Image",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz5.png",
-              "profile": "http://iiif.io/api/image/2/level2.json"
-            }
-          }
-        }
-      ]
+      "label": { "hu": ["Nyelv (Language)"] },
+      "value": { "hu": ["magyar"] }
     },
     {
-      "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz6.png",
-      "@type": "Canvas",
-      "label": "Page 6",
-      "height": 1000,
-      "width": 1500,
-      "images": [
-        {
-          "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz6.png",
-          "@type": "Image",
-          "format": "image/png",
-          "resource": {
-            "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz6.png",
-            "@type": "Image",
-            "service": {
-              "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://cdn.jsdelivr.net/gh/mokuska15/erkel@main/facsimilies/facsimilie1/himnusz6.png",
-              "profile": "http://iiif.io/api/image/2/level2.json"
+      "label": { "hu": ["Leírás"] },
+      "value": { "hu": ["A magyar nemzeti himnusz kottájának eredeti kézirata Erkel Ferenc kézírásában."]}
+    }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:8000/mirador_dual_project/images/source-a/page1.png",
+                "@type": "dctypes:Image",
+                "format": "image/png",
+                "height": 1000,
+                "width": 800
+              },
+              "on": "http://localhost:8000/canvas/source-a/page1"
             }
-          }
+          ]
+        },
+        {
+          "@id": "http://localhost:8000/canvas/source-a/page2",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "height": 1000,
+          "width": 800,
+          "metadata": [
+            {
+              "label": "Description",
+              "value": "Page 2 continues the melody with added lyrics beneath the staves."
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:8000/mirador_dual_project/images/source-a/page2.png",
+                "@type": "dctypes:Image",
+                "format": "image/png",
+                "height": 1000,
+                "width": 800
+              },
+              "on": "http://localhost:8000/canvas/source-a/page2"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8000/canvas/source-a/page3",
+          "@type": "sc:Canvas",
+          "label": "Page 3",
+          "height": 1000,
+          "width": 800,
+          "metadata": [
+            {
+              "label": "Description",
+              "value": "Page 3 features dynamic markings and tempo indications."
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:8000/mirador_dual_project/images/source-a/page3.png",
+                "@type": "dctypes:Image",
+                "format": "image/png",
+                "height": 1000,
+                "width": 800
+              },
+              "on": "http://localhost:8000/canvas/source-a/page3"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8000/canvas/source-a/page4",
+          "@type": "sc:Canvas",
+          "label": "Page 4",
+          "height": 1000,
+          "width": 800,
+          "metadata": [
+            {
+              "label": "Description",
+              "value": "Page 4 shows a key change and a shift in rhythmic patterns."
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:8000/mirador_dual_project/images/source-a/page4.png",
+                "@type": "dctypes:Image",
+                "format": "image/png",
+                "height": 1000,
+                "width": 800
+              },
+              "on": "http://localhost:8000/canvas/source-a/page4"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8000/canvas/source-a/page5",
+          "@type": "sc:Canvas",
+          "label": "Page 5",
+          "height": 1000,
+          "width": 800,
+          "metadata": [
+            {
+              "label": "Description",
+              "value": "Page 5 contains a section of polyphonic texture with overlapping voices."
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:8000/mirador_dual_project/images/source-a/page5.png",
+                "@type": "dctypes:Image",
+                "format": "image/png",
+                "height": 1000,
+                "width": 800
+              },
+              "on": "http://localhost:8000/canvas/source-a/page5"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8000/canvas/source-a/page6",
+          "@type": "sc:Canvas",
+          "label": "Page 6",
+          "height": 1000,
+          "width": 800,
+          "metadata": [
+            {
+              "label": "Description",
+              "value": "Page 6 concludes the manuscript with a final cadence and signature."
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:8000/mirador_dual_project/images/source-a/page6.png",
+                "@type": "dctypes:Image",
+                "format": "image/png",
+                "height": 1000,
+                "width": 800
+              },
+              "on": "http://localhost:8000/canvas/source-a/page6"
+            }
+          ]
         }
       ]
     }
