@@ -11,7 +11,7 @@
   },
   "rights": "http://creativecommons.org/licenses/by/4.0/",
   "description": "A facsimile of the original manuscript - Source A.",
-  "sequences": [
+  "items": [
     {
       "@type": "sc:Sequence",
       "canvases": [
