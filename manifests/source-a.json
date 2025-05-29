@@ -1,201 +1,324 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "@id": "http://localhost:8000/manifests/source-a.json",
-  "@type": "sc:Manifest",
+  "id": "http://localhost:8000/manifests/source-a.json",
+  "type": "Manifest",
   "label": {
-  "hu": [ "Himnusz egyik változat" ]
-},
-   "requiredStatement": {
-    "label": { "en": ["Attribution"] },
-    "value": { "en": ["Provided by National Széchényi Library"] }
+    "hu": [
+      "Himnusz egyik változat"
+    ]
+  },
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "en": [
+        "Provided by National Széchényi Library"
+      ]
+    }
   },
   "rights": "http://creativecommons.org/licenses/by/4.0/",
-  "description": "A facsimile of the original manuscript - Source A.",
+  "description": {
+    "en": [
+      "A facsimile of the original manuscript - Source A."
+    ]
+  },
   "items": [
     {
-      "@type": "sc:Sequence",
-      "canvases": [
+      "id": "http://localhost:8000/canvas/source-a/page1",
+      "type": "Canvas",
+      "height": 1000,
+      "width": 800,
+      "label": {
+        "en": [
+          "Page 1"
+        ]
+      },
+      "items": [
         {
-          "@id": "http://localhost:8000/canvas/source-a/page1",
-          "@type": "sc:Canvas",
-          "label": "Page 1",
-          "height": 1000,
-          "width": 800,
-          "metadata": [
-    {
-      "label": { "hu": ["Szerző (Creator)"] },
-      "value": { "hu": ["Kölcsey Ferenc"] }
-    },
-    {
-      "label": { "hu": ["Zeneszerző (Composer)"] },
-      "value": { "hu": ["Erkel Ferenc"] }
-    },
-    {
-      "label": { "hu": ["Készítés dátuma (Date)"] },
-      "value": { "hu": ["1823"] }
-    },
-    {
-      "label": { "hu": ["Típus (Type)"] },
-      "value": { "hu": ["Kézirat, zenei kézirat"] }
-    },
-    {
-      "label": { "hu": ["Nyelv (Language)"] },
-      "value": { "hu": ["magyar"] }
-    },
-    {
-      "label": { "hu": ["Leírás"] },
-      "value": { "hu": ["A magyar nemzeti himnusz kottájának eredeti kézirata Erkel Ferenc kézírásában."]}
-    }
-          ],
-          "images": [
+          "id": "http://localhost:8000/canvas/source-a/page1/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
             {
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://localhost:8000/mirador_dual_project/images/source-a/page1.png",
-                "@type": "dctypes:Image",
+              "id": "http://localhost:8000/canvas/source-a/page1/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "http://localhost:8000/canvas/source-a/page1",
+              "body": {
+                "id": "http://localhost:8000/mirador_dual_project/images/source-a/page1.png",
+                "type": "Image",
                 "format": "image/png",
                 "height": 1000,
                 "width": 800
-              },
-              "on": "http://localhost:8000/canvas/source-a/page1"
+              }
             }
           ]
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "hu": [
+              "Szerző (Creator)"
+            ]
+          },
+          "value": {
+            "hu": [
+              "Kölcsey Ferenc"
+            ]
+          }
         },
         {
-          "@id": "http://localhost:8000/canvas/source-a/page2",
-          "@type": "sc:Canvas",
-          "label": "Page 2",
-          "height": 1000,
-          "width": 800,
-          "metadata": [
-            {
-              "label": "Description",
-              "value": "Page 2 continues the melody with added lyrics beneath the staves."
-            }
-          ],
-          "images": [
-            {
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://localhost:8000/mirador_dual_project/images/source-a/page2.png",
-                "@type": "dctypes:Image",
-                "format": "image/png",
-                "height": 1000,
-                "width": 800
-              },
-              "on": "http://localhost:8000/canvas/source-a/page2"
-            }
-          ]
+          "label": {
+            "hu": [
+              "Zeneszerző (Composer)"
+            ]
+          },
+          "value": {
+            "hu": [
+              "Erkel Ferenc"
+            ]
+          }
         },
         {
-          "@id": "http://localhost:8000/canvas/source-a/page3",
-          "@type": "sc:Canvas",
-          "label": "Page 3",
-          "height": 1000,
-          "width": 800,
-          "metadata": [
-            {
-              "label": "Description",
-              "value": "Page 3 features dynamic markings and tempo indications."
-            }
-          ],
-          "images": [
-            {
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://localhost:8000/mirador_dual_project/images/source-a/page3.png",
-                "@type": "dctypes:Image",
-                "format": "image/png",
-                "height": 1000,
-                "width": 800
-              },
-              "on": "http://localhost:8000/canvas/source-a/page3"
-            }
-          ]
+          "label": {
+            "hu": [
+              "Készítés dátuma (Date)"
+            ]
+          },
+          "value": {
+            "hu": [
+              "1823"
+            ]
+          }
         },
         {
-          "@id": "http://localhost:8000/canvas/source-a/page4",
-          "@type": "sc:Canvas",
-          "label": "Page 4",
-          "height": 1000,
-          "width": 800,
-          "metadata": [
-            {
-              "label": "Description",
-              "value": "Page 4 shows a key change and a shift in rhythmic patterns."
-            }
-          ],
-          "images": [
-            {
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://localhost:8000/mirador_dual_project/images/source-a/page4.png",
-                "@type": "dctypes:Image",
-                "format": "image/png",
-                "height": 1000,
-                "width": 800
-              },
-              "on": "http://localhost:8000/canvas/source-a/page4"
-            }
-          ]
+          "label": {
+            "hu": [
+              "Típus (Type)"
+            ]
+          },
+          "value": {
+            "hu": [
+              "Kézirat, zenei kézirat"
+            ]
+          }
         },
         {
-          "@id": "http://localhost:8000/canvas/source-a/page5",
-          "@type": "sc:Canvas",
-          "label": "Page 5",
-          "height": 1000,
-          "width": 800,
-          "metadata": [
-            {
-              "label": "Description",
-              "value": "Page 5 contains a section of polyphonic texture with overlapping voices."
-            }
-          ],
-          "images": [
-            {
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://localhost:8000/mirador_dual_project/images/source-a/page5.png",
-                "@type": "dctypes:Image",
-                "format": "image/png",
-                "height": 1000,
-                "width": 800
-              },
-              "on": "http://localhost:8000/canvas/source-a/page5"
-            }
-          ]
+          "label": {
+            "hu": [
+              "Nyelv (Language)"
+            ]
+          },
+          "value": {
+            "hu": [
+              "magyar"
+            ]
+          }
         },
         {
-          "@id": "http://localhost:8000/canvas/source-a/page6",
-          "@type": "sc:Canvas",
-          "label": "Page 6",
-          "height": 1000,
-          "width": 800,
-          "metadata": [
+          "label": {
+            "hu": [
+              "Leírás"
+            ]
+          },
+          "value": {
+            "hu": [
+              "A magyar nemzeti himnusz kottájának eredeti kézirata Erkel Ferenc kézírásában."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:8000/canvas/source-a/page2",
+      "type": "Canvas",
+      "height": 1000,
+      "width": 800,
+      "label": {
+        "en": [
+          "Page 2"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:8000/canvas/source-a/page2/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
             {
-              "label": "Description",
-              "value": "Page 6 concludes the manuscript with a final cadence and signature."
-            }
-          ],
-          "images": [
-            {
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "http://localhost:8000/mirador_dual_project/images/source-a/page6.png",
-                "@type": "dctypes:Image",
+              "id": "http://localhost:8000/canvas/source-a/page2/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "http://localhost:8000/canvas/source-a/page2",
+              "body": {
+                "id": "http://localhost:8000/mirador_dual_project/images/source-a/page2.png",
+                "type": "Image",
                 "format": "image/png",
                 "height": 1000,
                 "width": 800
-              },
-              "on": "http://localhost:8000/canvas/source-a/page6"
+              }
             }
           ]
+        }
+      ],
+      "metadata": [
+        {
+          "label": "Description",
+          "value": "Page 2 continues the melody with added lyrics beneath the staves."
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:8000/canvas/source-a/page3",
+      "type": "Canvas",
+      "height": 1000,
+      "width": 800,
+      "label": {
+        "en": [
+          "Page 3"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:8000/canvas/source-a/page3/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:8000/canvas/source-a/page3/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "http://localhost:8000/canvas/source-a/page3",
+              "body": {
+                "id": "http://localhost:8000/mirador_dual_project/images/source-a/page3.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 1000,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "label": "Description",
+          "value": "Page 3 features dynamic markings and tempo indications."
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:8000/canvas/source-a/page4",
+      "type": "Canvas",
+      "height": 1000,
+      "width": 800,
+      "label": {
+        "en": [
+          "Page 4"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:8000/canvas/source-a/page4/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:8000/canvas/source-a/page4/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "http://localhost:8000/canvas/source-a/page4",
+              "body": {
+                "id": "http://localhost:8000/mirador_dual_project/images/source-a/page4.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 1000,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "label": "Description",
+          "value": "Page 4 shows a key change and a shift in rhythmic patterns."
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:8000/canvas/source-a/page5",
+      "type": "Canvas",
+      "height": 1000,
+      "width": 800,
+      "label": {
+        "en": [
+          "Page 5"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:8000/canvas/source-a/page5/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:8000/canvas/source-a/page5/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "http://localhost:8000/canvas/source-a/page5",
+              "body": {
+                "id": "http://localhost:8000/mirador_dual_project/images/source-a/page5.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 1000,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "label": "Description",
+          "value": "Page 5 contains a section of polyphonic texture with overlapping voices."
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:8000/canvas/source-a/page6",
+      "type": "Canvas",
+      "height": 1000,
+      "width": 800,
+      "label": {
+        "en": [
+          "Page 6"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:8000/canvas/source-a/page6/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:8000/canvas/source-a/page6/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "http://localhost:8000/canvas/source-a/page6",
+              "body": {
+                "id": "http://localhost:8000/mirador_dual_project/images/source-a/page6.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 1000,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "label": "Description",
+          "value": "Page 6 concludes the manuscript with a final cadence and signature."
         }
       ]
     }
