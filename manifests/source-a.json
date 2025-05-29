@@ -2,7 +2,9 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "http://localhost:8000/manifests/source-a.json",
   "@type": "sc:Manifest",
-  "label": "Himnusz egyik változat",
+  "label": {
+  "hu": [ "Himnusz egyik változat" ]
+},
    "requiredStatement": {
     "label": { "en": ["Attribution"] },
     "value": { "en": ["Provided by National Széchényi Library"] }
